@@ -1,7 +1,10 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -25,7 +28,10 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pkl
 MANIFEST
+forge.yaml
+.forge
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -50,19 +56,21 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
+*.pytest_cache
+*.mypy_cache
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
+# Flask stuff:
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
-instance/
+# instance/
 .webassets-cache
 
 # Scrapy stuff:
@@ -70,18 +78,19 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+README.html
 
 # PyBuilder
+.pybuilder/
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
 ipython_config.py
 
 # pyenv
+#  For a library or package, you might want to ignore these files since the code is
+#  intended to run in multiple environments; otherwise, check them in:
 .python-version
 
 # pipenv
@@ -89,7 +98,7 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+# Pipfile.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
@@ -100,15 +109,6 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +127,97 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+bin
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Local History for Visual Studio Code
+.history/
+
+# Jupyter Notebook
+#  gitignore template for Jupyter Notebooks
+#  website: http://jupyter.org/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#  git rm -r .ipynb_checkpoints/
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.htm
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/.eslintcache
+
+# Draft & Test Appeals Rules
+draft/
+
+# IDE - VSCode
+!.vscode
+!.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+app/.env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
