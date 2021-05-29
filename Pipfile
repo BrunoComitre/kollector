@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-restful = "*"
+flask-bootstrap = "*"
+flask-admin = "*"
+dynaconf = "*"
+flask-shell-ipython = "*"
+
+[dev-packages]
+flask-debugtoolbar = "*"
+flake8 = "*"
+flake8-fixme = "*"
+black = "*"
+isort = "*"
+ipdb = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.9"

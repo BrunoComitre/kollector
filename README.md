@@ -10,6 +10,8 @@ Teste Técnico Desenvolvedor Backend escrito em Python.
 
 Este é um projeto de back-end do mundo real baseado em Flask + Celery + MongoDB. Ele pode ser usado como um back-end de amostra CRUD ou um projeto de amostra Flask ou MongoDB.
 
+A ideia do nome do projeto veio do personagem: [Kollector](https://mortalkombat.fandom.com/pt/wiki/Kollector)
+
 &nbsp;
 
 Este README destina-se a orientar como este projeto está estruturado e deve servir como um guia para ajudar na escala do projeto com os requisitos atuais e futuros. Pense nisso como um conjunto flexível de regras que orientam as decisões do projeto. Enquanto eles podem (e provavelmente irão) mudar ao longo do tempo, as discussões devem ser levantadas para desencadear tais mudanças: isso significa que vamos pensar/questionar a nós mesmos antes de tomar uma ação que quebra qualquer decisão racional tomada aqui. Isso é também eficaz para orientar as discussões de PR.

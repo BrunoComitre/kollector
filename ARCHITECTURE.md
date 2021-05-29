@@ -75,8 +75,34 @@ TODO: Adicionar arquiterura por pastas dos projetos
 
 ### Começo rápido
 
+O environment foi criado através do tutorial: [Criando Environment](https://www.codegrepper.com/code-examples/python/create+a+virtual+environment+with+python+3.9)
+
+```
+#------FOR LINUX/MAC---------#
+python create virtualenvpython 
+pip install virtualenv # install first
+cd projectfolder # go to project folder
+python -m venv ./venv # Create a virtual environment named venv
+source env/bin/activate # start the file  to start the environment
+
+#-------FOR WINDOWS----------#
+#installing venv
+py -m pip install --user virtualenv
+#creating virtual env
+py -m venv env
+#activating virtual env
+cd \venv
+. bin/activate
+```
+
+Se você precisa encontrar o PATH do Pipenv:
+``` $ pipenv --venv ```
+
+Para rodar o Pipenv:
+``` $ pipenv shell ```
+
 Criar Rede Docker:
-``` $ docker network create a55-network ```
+``` $ docker network create kollector-network ```
 
 Construir Imagem:
 ``` $ docker-compose build ```
@@ -92,12 +118,6 @@ Rodar Teste:
 
 Executar:
 ``` $ ipython -i test.py ``` ou ``` $ python3 -i test.py ```
-
-Se você precisa encontrar o PATH do Pipenv:
-``` $ pipenv --venv ```
-
-Para rodar o Pipenv:
-``` $ pipenv shell ```
 
 Para executar o aplicativo de depuração da web, use:
 ``` $ uvicorn app.main:app --reload ```
