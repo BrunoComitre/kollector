@@ -1,0 +1,36 @@
+asgi-lifespan
+bandit
+certifi
+chardet
+coverage
+dnspython
+docutils
+email-validator
+httptools
+markupsafe
+more-itertools
+regex
+setuptools
+smmap
+snowballstemmer
+text-unidecode
+typed-ast
+typing-extensions
+urllib3
+unidecode
+websocket-client
+websockets
+python-dotenv
+ujson
+# async-exit-stack
+# async-generator
+# motor
+# passlib
+# python-jose
+# python-multipart
+# pydantic
+# starlette
+# uvloop
+# uvicorn
+# databases
+# bcrypt

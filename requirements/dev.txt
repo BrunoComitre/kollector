@@ -1,0 +1,6 @@
+flask-debugtoolbar
+flake8
+flake8-fixme
+black
+isort
+ipdb

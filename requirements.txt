@@ -1,0 +1,11 @@
+# -r requirements/analyze.txt
+# -r requirements/dev.txt
+# -r requirements/study.txt
+# -r requirements/test.txt
+
+dynaconf==2.2.1
+Flask-Admin==1.5.4
+Flask-Bootstrap==3.3.7.1
+Flask-RESTful==0.3.7
+flask-shell-ipython==0.4.1
+Flask==1.1.1

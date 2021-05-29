@@ -1,0 +1,5 @@
+# pytest
+pytest-flask
+pytest-asyncio
+pytest-cov
+pytest-env
