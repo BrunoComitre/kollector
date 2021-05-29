@@ -1,0 +1,97 @@
+{
+  // "terminal.integrated.fontSize": 12,
+
+  "editor.tabSize": 2,
+  // "editor.fontSize": 12,
+  "editor.lineHeight": 16,
+  // "editor.fontFamily": "monospace",
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.rulers": [
+    {
+        "column": 80,
+        "color": "#00455a9d"
+      },
+      {
+        "column": 100, // ruler with default or editorRuler.foreground color column 100
+        "color": "#096e009a"
+      },
+      {
+        "column": 120,
+        "color": "#ff00006c"
+      },
+  ],
+
+  "extensions.ignoreRecommendations": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+
+  "markdown.extension.toc.updateOnSave": false,
+
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#000000",
+      "activityBar.activeBorder": "#ffffff",
+      "activityBar.background": "#000000",
+      "activityBar.foreground": "#ffffff",
+      "activityBar.inactiveForeground": "#ffffff",
+      "activityBarBadge.background": "#ffffff",
+      "activityBarBadge.foreground": "#000000",
+      "statusBar.background": "#000000",
+      "statusBar.foreground": "#ffffff",
+      "statusBarItem.hoverBackground": "#000000",
+      "titleBar.activeBackground": "#000000",
+      "titleBar.activeForeground": "#ffffff",
+      "titleBar.inactiveBackground": "#000000",
+      "titleBar.inactiveForeground": "#ffffff",
+      "editor.background": "#000000",
+      "sideBar.background": "#000000",
+      "sideBar.border": "#ffffff",
+      "tab.activeBackground": "#888888",
+      "editorGroupHeader.tabsBackground": "#000000"
+  },
+
+  "cSpell.language": "pt,en",
+  "cSpell.userWords": [
+    "brunocomitre"
+  ],
+  "cSpell.ignoreWords": [
+    "example"
+  ],
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ]
+}
