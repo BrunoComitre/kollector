@@ -197,6 +197,7 @@ output/*/index.htm
 
 # Draft & Test Appeals Rules
 draft/
+examplebr/
 
 # IDE - VSCode
 !.vscode
