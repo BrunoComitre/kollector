@@ -19,6 +19,12 @@ black = "*"
 isort = "*"
 ipdb = "*"
 mypy = "*"
+mypy-extensions = "*"
+pycodestyle = "*"
+pyflakes = "*"
+pylint = "*"
+pyparsing = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"

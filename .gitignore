@@ -5,6 +5,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+**/__pycache__
+*.db
+.pytest_cache
 
 # C extensions
 *.so
@@ -198,6 +201,7 @@ output/*/index.htm
 # Draft & Test Appeals Rules
 draft/
 examplebr/
+flask_note/
 
 # IDE - VSCode
 .vscode
