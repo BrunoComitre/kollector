@@ -5,6 +5,7 @@ Como um projeto que poderá ter continuidade, segue algumas ideias de implementa
 ## TO-DO
 
 - Essencial
+   - [ ] Usar Flask 2.0
    - [ ] Aplicar TDD outside In, DDD, BDD no Flask
    - [ ] Ver a questão Pipfile e requirements para docker
    - [ ] dev, qa, staging, production
