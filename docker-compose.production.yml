@@ -1,0 +1,36 @@
+version: '3.7'
+
+services:
+  web_app:
+    container_name: flaskkollectorprod
+    build:
+      context: .
+    restart: always
+    environment:
+      - FLASK_ENV=production
+    volumes:
+      - .:/usr/app
+    ports:
+      - 5000:5000
+    command: sh -c "gunicorn -w 4 main:app --host 0.0.0.0 --port 5000 /bin/bash"
+#     links:
+#       - mongodb
+  
+#   mongodb:
+#     image: mongo:latest
+#     container_name: mongodb
+#     restart: always
+#     environment:
+#       - AUTH=no
+#     volumes:
+#       - mongoNote:/usr/app/data
+#     ports:
+#       - 27017:27017
+
+# volumes:
+#     mongoNote:
+
+      networks:
+        default:
+          external:
+            name: kollector-network
