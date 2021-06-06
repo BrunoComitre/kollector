@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Kollector",
+    "folders": [
+      {
+        "name": "CRUD TEST",
+        "folders": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Check Communication"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/note",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "View Data"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/note",
+            "method": "POST",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [
+              {
+                "active": true,
+                "key": "0",
+                "value": {
+                  "id": 11,
+                  "note": "Uma das minhas notas"
+                }
+              }
+            ],
+            "rawParams": "[\r\n\t{\r\n\t\t\"id\": 11,\r\n\t\t\"note\":\"Uma das minhas notas\" \r\n\t}\r\n]\r\n",
+            "rawInput": true,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Create Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/note/10",
+            "method": "PUT",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [
+              {
+                "active": true,
+                "key": "$set",
+                "value": {
+                  "note": "UMA DAS MINHAS FAVORITAS"
+                }
+              }
+            ],
+            "rawParams": "{\r\n\t\"$set\": {\r\n\t\t\"note\": \"UMA DAS MINHAS FAVORITAS\" \r\n\t}\r\n}\r\n",
+            "rawInput": true,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Edit Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/note/11",
+            "method": "DELETE",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "{}",
+            "rawInput": false,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Delete Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/note",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Verify Notes"
+          }
+        ]
+      },
+      {
+        "name": "CRUD TEST V1",
+        "folders": [],
+        "requests": [
+          {
+            "url": "http://localhost:5000",
+            "path": "/v1/",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Check Communication"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/v1/note",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "View Data"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/v1/note",
+            "method": "POST",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [
+              {
+                "active": true,
+                "key": "0",
+                "value": {
+                  "id": 14,
+                  "note": "minhas we"
+                }
+              }
+            ],
+            "rawParams": "[\r\n\t{\r\n\t\t\"id\": 14,\r\n\t\t\"note\":\"minhas we\" \r\n\t}\r\n]",
+            "rawInput": true,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Create Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/v1/note/12",
+            "method": "PUT",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [
+              {
+                "active": true,
+                "key": "$set",
+                "value": {
+                  "note": "UMA DAS MINHAS NOTAS"
+                }
+              }
+            ],
+            "rawParams": "{\r\n\t\"$set\": {\r\n\t\t\"note\": \"UMA DAS MINHAS NOTAS\" \r\n\t}\r\n}\r\n",
+            "rawInput": true,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Edit Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/v1/note/13",
+            "method": "DELETE",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "{}",
+            "rawInput": false,
+            "contentType": "application/json",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Delete Note"
+          },
+          {
+            "url": "http://127.0.0.1:5000",
+            "path": "/v1/note",
+            "method": "GET",
+            "auth": "None",
+            "httpUser": "",
+            "httpPassword": "",
+            "passwordFieldType": "password",
+            "bearerToken": "",
+            "headers": [],
+            "params": [],
+            "bodyParams": [],
+            "rawParams": "",
+            "rawInput": true,
+            "contentType": "",
+            "requestType": "",
+            "preRequestScript": "// pw.env.set('variable', 'value');",
+            "testScript": "// pw.expect('variable').toBe('value');",
+            "name": "Verify Notes"
+          }
+        ]
+      }
+    ],
+    "requests": []
+  }
+]
