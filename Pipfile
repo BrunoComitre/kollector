@@ -10,6 +10,7 @@ flask-bootstrap = "*"
 flask-admin = "*"
 dynaconf = "*"
 flask-shell-ipython = "*"
+flask-simplelogin = "*"
 
 [dev-packages]
 flask-debugtoolbar = "*"
@@ -25,6 +26,10 @@ pyflakes = "*"
 pylint = "*"
 pyparsing = "*"
 pytest = "*"
+pytest-flask = "*"
+pytest-asyncio = "*"
+pytest-env = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.9"
