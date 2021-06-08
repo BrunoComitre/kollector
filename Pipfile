@@ -11,6 +11,7 @@ flask-admin = "*"
 dynaconf = "*"
 flask-shell-ipython = "*"
 flask-simplelogin = "*"
+python-dotenv = "*"
 
 [dev-packages]
 flask-debugtoolbar = "*"

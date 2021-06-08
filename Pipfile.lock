@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a824c498cc42057101f1b39b03e3f7b14be523013dff73d5c34a3a7a41fc00f1"
+            "sha256": "563a492a5664f7ecc5b1866e28efcc14d2ff5bbc98d78eef1ae5526299fa7d41"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -242,6 +242,14 @@
             "markers": "python_version >= '3.5'",
             "version": "==2.9.0"
         },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:00aa34e92d992e9f8383730816359647f358f4a3be1ba45e5a5cefd27ee91544",
+                "sha256:b1ae5e9643d5ed987fc57cc2583021e38db531946518130777734f9589b3141f"
+            ],
+            "index": "pypi",
+            "version": "==0.17.1"
+        },
         "pytz": {
             "hashes": [
                 "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da",
@@ -418,7 +426,7 @@
                 "sha256:f0b278ce10936db1a37e6954e15a3730bea96a0997c26d7fee88e6c396c2086d",
                 "sha256:f11642dddbb0253cc8853254301b51390ba0081750a8ac03f20ea8103f0c56b6"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
             "version": "==5.5"
         },
         "decorator": {
