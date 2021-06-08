@@ -1,5 +1,5 @@
 # -r requirements/analyze.txt
-# -r requirements/dev.txt
+-r requirements/dev.txt
 # -r requirements/study.txt
 -r requirements/test.txt
 

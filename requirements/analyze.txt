@@ -1,6 +1,7 @@
-gensim
-numpy
-pandas
+# gensim
+# numpy
+# pandas
+
 # matplotlib
 # nltk
 # scikit-learn
