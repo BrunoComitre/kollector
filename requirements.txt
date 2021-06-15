@@ -9,7 +9,7 @@ Flask-Bootstrap
 Flask-RESTful
 flask-shell-ipython
 Flask
-
+python-dotenv
 
 # flask-mongoengine==0.9.5
 # Flask-PyMongo==2.3.0
@@ -17,7 +17,6 @@ Flask
 # Flask-SQLAlchemy==2.4.3
 # psycopg2-binary==2.8.5
 # pymongo==3.10.1
-# python-dotenv==0.13.0
 
 # alembic==1.4.2
 # amqp==2.6.0

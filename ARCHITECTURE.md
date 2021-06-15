@@ -1,5 +1,16 @@
 # Arquitetura
 
+A pasta Kollector se destina a ideia de ser um módulo python que possa ser compartilhado, por isso leva o nome da api.
+Pode parecer redundante uma pasta kollector dentro de outra pasta kollector, mas a primeira se destina a API com arquivos e comnfigurações já a segunda é um módulo que poderá ser incorporado ou compartilhado na comunidade python
+
+Dentro de de kollection existe src e tests, onde os arquivos.py do início são para subir a aplicação flask, a pasta tests se destina apenas a arquivos de teste da aplicação, e dentro de src possuimos a pasta domain, extentions
+
+src/significa source e é o **código bruto** antes da minificação ou concatenação ou alguma outra compilação - usada para ler / editar o código.
+
+a pasta domain se trata da criação da lógica e toda regra de negócio proprietário.
+a pasta extensions se trata a dependencias de terceiros que estou utilizando na minha aplicação
+
+
 Índice
 - [Arquitetura](#arquitetura)
   - [`.vscode/`](#vscode)
