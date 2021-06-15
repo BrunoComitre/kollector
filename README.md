@@ -48,6 +48,6 @@ Como este aplicativo funciona de dentro e como ele interage com dependências ex
 
 ## Licença
 
-A aplicação Sploot é publicado sob licença sob [BSD 3-Clause](LICENSE).
+A aplicação Sploot é publicado sob licença sob [MIT](LICENSE).
 
 ***
