@@ -1,5 +1,7 @@
 # Kollector
 
+# Pausado, por motivo de ser usado para testes de níveis J.P.S.
+
 &nbsp;
 
 ![version](https://img.shields.io/badge/version-0.0.1-blue.svg?maxAge=2592000)
